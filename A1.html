@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAY</title>
+</head>
+<body>
+    
+<p id="text"></p>
+<button onclick="f1()">SORT</button>
+<button onclick="f2()">REVERSE</button>
+
+<p id="r"></p>
+
+<script>
+
+var friend=["Ibrahim","Jack","John","Mike"]
+document.getElementById("text").innerHTML="Original Array:"+friend;
+function f1(){
+
+    friend.sort();
+document.getElementById("r").innerHTML="SORT Array:"+friend;
+}
+
+function f2() {
+
+friend.sort();
+document.getElementById("r").innerHTML = "REVERSE Array:" + friend;
+    }
+
+</script>
+
+</body>
+</html>
